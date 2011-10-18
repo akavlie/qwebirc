@@ -29,13 +29,11 @@ Development
 -----------
 Make symlinks as follows in the root directory
 
-	ln -s static/js/debug js
-	ln -s static/css/debug css
+	ln -s ../../js static/js/debug
+	ln -s ../../css static/css/debug
 
-This will allow you to see changes without running `compile.py` every time.
-
-See `http://instance/quidebug.html` for debug output or something.
-It's not yet clear what this page is supposed to do.
+This will allow you to use the application with unoptimized JS & CSS at `http://instance/quidebug.html`.
+Any changes will be reflected immediately, without running `compile.py` every time.
 
 
 FAQ
